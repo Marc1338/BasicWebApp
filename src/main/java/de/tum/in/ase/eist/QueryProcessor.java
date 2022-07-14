@@ -49,6 +49,8 @@ public class QueryProcessor {
             return "400";
         } else if (query.contains("which of the following numbers are primes: 499, 2")) {
             return "499 2";
+        } else if (query.contains("what colour is a banana")) {
+            return "Yellow";
         } else  { // TODO extend the programm here
             return "";
         }
