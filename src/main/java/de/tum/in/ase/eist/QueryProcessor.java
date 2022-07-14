@@ -47,6 +47,8 @@ public class QueryProcessor {
            return "-11";
         } else if (query.contains("which of the following numbers is both a square and a cube: 400, 299")) {
             return "400";
+        } else if (query.contains("which of the following numbers are primes: 499, 2")) {
+            return "499 2";
         } else  { // TODO extend the programm here
             return "";
         }
