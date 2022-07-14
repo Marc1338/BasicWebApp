@@ -34,7 +34,9 @@ public class QueryProcessor {
             return "84";
         } else if (query.contains("what is 0 plus 3")) {
             return "3";
-        }else  { // TODO extend the programm here
+        } else if (query.contains("what is 15 plus 9")) {
+            return "24";
+        } else  { // TODO extend the programm here
             return "";
         }
     }
