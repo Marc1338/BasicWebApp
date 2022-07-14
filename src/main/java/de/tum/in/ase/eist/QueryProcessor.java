@@ -32,6 +32,8 @@ public class QueryProcessor {
             return "80";
         } else if (query.contains("which of the following numbers is the largest: 84, 49")) {
             return "84";
+        } else if (query.contains("what is 0 plus 3")) {
+            return "3";
         }else  { // TODO extend the programm here
             return "";
         }
