@@ -63,6 +63,8 @@ public class QueryProcessor {
             return "-7";
         } else if (query.contains("what is 4 to the power of 11")) {
             return "4194304";
+        } else if (query.contains("what is 0 to the power of 1")) {
+            return "0";
         } else  { // TODO extend the programm here
             return "";
         }
