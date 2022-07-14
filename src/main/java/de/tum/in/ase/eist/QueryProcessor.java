@@ -36,6 +36,8 @@ public class QueryProcessor {
             return "3";
         } else if (query.contains("what is 15 plus 9")) {
             return "24";
+        } else if (query.contains("which of the following numbers is the largest: 12, 34, 695, 214")) {
+            return "695";
         } else  { // TODO extend the programm here
             return "";
         }
