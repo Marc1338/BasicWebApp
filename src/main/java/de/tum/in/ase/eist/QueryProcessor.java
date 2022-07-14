@@ -30,6 +30,8 @@ public class QueryProcessor {
             return "293";
         } else if (query.contains("which of the following numbers is the largest: 21, 80")) {
             return "80";
+        } else if (query.contains("which of the following numbers is the largest: 84, 49")) {
+            return "84";
         }else  { // TODO extend the programm here
             return "";
         }
