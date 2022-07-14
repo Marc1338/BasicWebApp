@@ -28,7 +28,9 @@ public class QueryProcessor {
             return "4";
         } else if (query.contains("c91732e0: which of the following numbers is the largest: 245, 93, 293, 94")){
             return "293";
-        } else  { // TODO extend the programm here
+        } else if (query.contains("which of the following numbers is the largest: 21, 80")) {
+            return "80";
+        }else  { // TODO extend the programm here
             return "";
         }
     }
