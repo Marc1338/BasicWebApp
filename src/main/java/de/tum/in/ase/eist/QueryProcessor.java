@@ -45,7 +45,10 @@ public class QueryProcessor {
             return "695";
         } else if (query.contains("what is 0 minus 15")) {
             return "15";
-        } else  { // TODO extend the programm here
+        } else if (query.contains("which city is the Eiffel tower in")) {
+            return "Paris";
+        }
+         else  { // TODO extend the programm here
             return "";
         }
     }
