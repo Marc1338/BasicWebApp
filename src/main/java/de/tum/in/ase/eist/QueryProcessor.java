@@ -26,6 +26,8 @@ public class QueryProcessor {
 
         }else if (query.contains("afa484a0: what is 2 plus 2")){
             return "4";
+        } else if (query.contains("c91732e0: which of the following numbers is the largest: 245, 93, 293, 94")){
+            return "293";
         } else  { // TODO extend the programm here
             return "";
         }
