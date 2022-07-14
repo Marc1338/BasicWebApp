@@ -45,6 +45,8 @@ public class QueryProcessor {
             return "Paris";
         } else if (query.contains("what is 7 minus 18")) {
            return "-11";
+        } else if (query.contains("which of the following numbers is both a square and a cube: 400, 299")) {
+            return "400";
         } else  { // TODO extend the programm here
             return "";
         }
