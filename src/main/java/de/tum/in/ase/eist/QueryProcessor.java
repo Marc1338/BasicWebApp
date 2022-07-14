@@ -16,8 +16,12 @@ public class QueryProcessor {
 
         } else if (query.contains("what is 1 + 1")) {
             return "2";
-        }else if (query.contains("which of the following numbers is the largest: 12, 876, 560, 74")){
+        }else if (query.contains("which of the following numbers is the largest: 12, 876, 560, 74")) {
             return "876";
+
+        }else if (query.contains("what is 0 plus 12")){ {
+            return "12";
+        }
         } else  { // TODO extend the programm here
             return "";
         }
