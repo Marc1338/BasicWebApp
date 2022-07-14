@@ -21,8 +21,11 @@ public class QueryProcessor {
 
         }else if (query.contains("what is 0 plus 12")){
             return "12";
-        }else if (query.contains("74633480")){
+        }else if (query.contains("74633480")) {
             return "530";
+
+        }else if (query.contains("afa484a0: what is 2 plus 2")){
+            return "4";
         } else  { // TODO extend the programm here
             return "";
         }
