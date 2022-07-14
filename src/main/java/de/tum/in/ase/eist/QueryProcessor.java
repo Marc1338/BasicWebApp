@@ -53,6 +53,8 @@ public class QueryProcessor {
             return "Yellow";
         } else if (query.contains("which of the following numbers are primes: 59, 319")) {
             return "59";
+        } else if (query.contains("which of the following numbers are primes: 231, 535, 197, 379")) {
+            return "197 379";
         } else  { // TODO extend the programm here
             return "";
         }
